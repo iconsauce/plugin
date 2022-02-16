@@ -1,0 +1,34 @@
+{
+  "name": "@iconsauce/plugin",
+  "version": "0.0.1",
+  "description": "This is used as interface for typescript plugins created for iconsauce",
+  "main": "src/interface/plugin.ts",
+  "scripts": {
+    "build": "rm -rf lib || true && tsc --declaration && mv build lib"
+  },
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@maggioli-design-system/svg-icons": "^2.6.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0",
+    "typescript": "^4.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconsauce/plugin.git"
+  },
+  "keywords": [
+    "plugin"
+  ],
+  "author": "Vittorio Vittori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iconsauce/plugin/issues"
+  },
+  "homepage": "https://github.com/iconsauce/plugin#readme"
+}
